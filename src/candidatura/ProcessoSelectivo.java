@@ -3,6 +3,9 @@ package candidatura;
 public class ProcessoSelectivo {
     public static void main(String[] args) {
         System.out.println("Processo selectivo");
+        analisarCandidato(1900.0);
+        analisarCandidato(2000.0);
+        analisarCandidato(2100.0);
     }
 
     static void analisarCandidato(double salarioPretendido){
